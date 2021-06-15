@@ -1,0 +1,16 @@
+#java programimport java.until.*;
+class GCD {
+    public static void main (string[]args){
+        scanner obj=new scanner(system.in);
+        system.out.println("enter 2 numbers:");
+        int a=obj.next.int();
+        int b=obj.next.int();
+        int GCD=1;
+        for(int i=1;i<=a&&i<=b;i++)
+    {
+        if(a%i==0&&b%i==0)
+        GCD=i;
+        system.out.println("GCD="+GCD);
+    }
+    }
+}
