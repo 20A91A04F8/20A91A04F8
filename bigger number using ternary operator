@@ -1,0 +1,10 @@
+#Java-programsimport java.util.*;
+public class bigger_number {
+    public static void main(string[]args) {
+        system.out.println("enter 2 numbers:");
+        int a=5;
+        int b=8;
+        int c=(a>b)?a:b;
+        system.out.println("bigger than+"+c);
+    }
+}
